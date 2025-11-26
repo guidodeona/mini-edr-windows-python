@@ -1,0 +1,21 @@
+{
+  "process_scanner": {
+    "enabled": true,
+    "suspicious_names": ["powershell.exe","cmd.exe","wscript.exe","mshta.exe"],
+    "interval": 5
+  },
+  "file_scanner": {
+    "enabled": true,
+    "watch_paths": ["C:/Users/Public","C:/Users/TU_USUARIO/AppData/Local/Temp","C:/Users/TU_USUARIO/Desktop"],
+    "dangerous_extensions": [".exe",".dll",".bat",".cmd",".ps1"],
+    "interval": 5
+  },
+  "network_scanner": {
+    "enabled": true,
+    "watch_ports": [4444,1337,5555,3389,5985],
+    "interval": 10
+  },
+  "system_scanner": {
+    "enabled": true
+  }
+}

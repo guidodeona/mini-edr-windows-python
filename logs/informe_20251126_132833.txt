@@ -1,0 +1,29 @@
+========== INFORME DE SEGURIDAD ==========
+Fecha y hora: 2025-11-26 13:28:33.953602
+
+---- RIESGOS DETECTADOS / COSAS A VIGILAR ----
+- Proceso ejecutado desde ruta sospechosa: c:\users\memotito\appdata\local\programs\antigravity\antigravity.exe
+- Proceso ejecutado desde ruta sospechosa: c:\users\memotito\appdata\local\programs\python\python312\python.exe
+- Proceso ejecutado desde ruta sospechosa: c:\users\memotito\appdata\local\programs\antigravity\antigravity.exe
+- Proceso ejecutado desde ruta sospechosa: c:\users\memotito\appdata\local\programs\antigravity\resources\app\extensions\antigravity\bin\language_server_windows_x64.exe
+- Proceso ejecutado desde ruta sospechosa: c:\users\memotito\appdata\local\programs\python\python312\python.exe
+- Proceso ejecutado desde ruta sospechosa: c:\users\memotito\appdata\local\programs\antigravity\antigravity.exe
+- Proceso ejecutado desde ruta sospechosa: c:\users\memotito\appdata\local\programs\antigravity\antigravity.exe
+- Proceso ejecutado desde ruta sospechosa: c:\users\memotito\appdata\local\programs\antigravity\antigravity.exe
+- Proceso ejecutado desde ruta sospechosa: c:\users\memotito\appdata\local\programs\antigravity\antigravity.exe
+- Proceso ejecutado desde ruta sospechosa: c:\users\memotito\appdata\local\programs\antigravity\antigravity.exe
+- Proceso ejecutado desde ruta sospechosa: c:\users\memotito\appdata\local\programs\antigravity\antigravity.exe
+- Proceso ejecutado desde ruta sospechosa: c:\users\memotito\appdata\local\programs\antigravity\antigravity.exe
+- Proceso ejecutado desde ruta sospechosa: c:\users\memotito\appdata\local\programs\antigravity\antigravity.exe
+- Proceso ejecutado desde ruta sospechosa: c:\users\memotito\appdata\local\programs\antigravity\antigravity.exe
+- Proceso ejecutado desde ruta sospechosa: c:\users\memotito\appdata\local\programs\antigravity\antigravity.exe
+- Proceso ejecutado desde ruta sospechosa: c:\users\memotito\appdata\local\programs\antigravity\antigravity.exe
+- Proceso ejecutado desde ruta sospechosa: c:\users\memotito\appdata\local\programs\antigravity\antigravity.exe
+- Proceso ejecutado desde ruta sospechosa: c:\users\memotito\appdata\local\programs\python\python312\python.exe
+- Puerto abierto detectado: 3389
+- Firewall desactivado en uno o más perfiles
+
+---- PROBLEMAS CRÍTICOS / POSIBLES INFECCIONES ----
+- Proceso sospechoso: powershell.exe (PID 3560)
+- Proceso sospechoso: powershell.exe (PID 11684)
+- Proceso sospechoso: powershell.exe (PID 20952)

@@ -1,0 +1,33 @@
+[2025-11-26 13:28:10] 
+🛡️ Iniciando ESCANEO COMPLETO...
+
+[2025-11-26 13:28:10] 🔍 Escaneando procesos...
+[2025-11-26 13:28:10] [ALERTA] Proceso ejecutado desde ruta sospechosa: c:\users\memotito\appdata\local\programs\antigravity\antigravity.exe
+[2025-11-26 13:28:10] [ALERTA] Proceso sospechoso: powershell.exe (PID 3560)
+[2025-11-26 13:28:10] [ALERTA] Proceso ejecutado desde ruta sospechosa: c:\users\memotito\appdata\local\programs\python\python312\python.exe
+[2025-11-26 13:28:10] [ALERTA] Proceso ejecutado desde ruta sospechosa: c:\users\memotito\appdata\local\programs\antigravity\antigravity.exe
+[2025-11-26 13:28:10] [ALERTA] Proceso ejecutado desde ruta sospechosa: c:\users\memotito\appdata\local\programs\antigravity\resources\app\extensions\antigravity\bin\language_server_windows_x64.exe
+[2025-11-26 13:28:10] [ALERTA] Proceso ejecutado desde ruta sospechosa: c:\users\memotito\appdata\local\programs\python\python312\python.exe
+[2025-11-26 13:28:10] [ALERTA] Proceso sospechoso: powershell.exe (PID 11684)
+[2025-11-26 13:28:10] [ALERTA] Proceso ejecutado desde ruta sospechosa: c:\users\memotito\appdata\local\programs\antigravity\antigravity.exe
+[2025-11-26 13:28:10] [ALERTA] Proceso ejecutado desde ruta sospechosa: c:\users\memotito\appdata\local\programs\antigravity\antigravity.exe
+[2025-11-26 13:28:10] [ALERTA] Proceso ejecutado desde ruta sospechosa: c:\users\memotito\appdata\local\programs\antigravity\antigravity.exe
+[2025-11-26 13:28:10] [ALERTA] Proceso ejecutado desde ruta sospechosa: c:\users\memotito\appdata\local\programs\antigravity\antigravity.exe
+[2025-11-26 13:28:10] [ALERTA] Proceso ejecutado desde ruta sospechosa: c:\users\memotito\appdata\local\programs\antigravity\antigravity.exe
+[2025-11-26 13:28:10] [ALERTA] Proceso ejecutado desde ruta sospechosa: c:\users\memotito\appdata\local\programs\antigravity\antigravity.exe
+[2025-11-26 13:28:10] [ALERTA] Proceso ejecutado desde ruta sospechosa: c:\users\memotito\appdata\local\programs\antigravity\antigravity.exe
+[2025-11-26 13:28:10] [ALERTA] Proceso sospechoso: powershell.exe (PID 20952)
+[2025-11-26 13:28:10] [ALERTA] Proceso ejecutado desde ruta sospechosa: c:\users\memotito\appdata\local\programs\antigravity\antigravity.exe
+[2025-11-26 13:28:10] [ALERTA] Proceso ejecutado desde ruta sospechosa: c:\users\memotito\appdata\local\programs\antigravity\antigravity.exe
+[2025-11-26 13:28:10] [ALERTA] Proceso ejecutado desde ruta sospechosa: c:\users\memotito\appdata\local\programs\antigravity\antigravity.exe
+[2025-11-26 13:28:10] [ALERTA] Proceso ejecutado desde ruta sospechosa: c:\users\memotito\appdata\local\programs\antigravity\antigravity.exe
+[2025-11-26 13:28:10] [ALERTA] Proceso ejecutado desde ruta sospechosa: c:\users\memotito\appdata\local\programs\antigravity\antigravity.exe
+[2025-11-26 13:28:10] [ALERTA] Proceso ejecutado desde ruta sospechosa: c:\users\memotito\appdata\local\programs\python\python312\python.exe
+[2025-11-26 13:28:15] 🔍 Escaneando archivos...
+[2025-11-26 13:28:20] 🔍 Escaneando puertos...
+[2025-11-26 13:28:22] [ALERTA] Puerto abierto detectado: 3389
+[2025-11-26 13:28:32] 🔍 Escaneando sistema (servicios, drivers, firewall, tareas)...
+[2025-11-26 13:28:32] [INFO] Algunos servicios protegidos no pudieron ser listados, se ignoraron.
+[2025-11-26 13:28:33] [ALERTA] Firewall desactivado en uno o más perfiles
+[2025-11-26 13:28:33] ✔ Escaneo completo finalizado.
+
