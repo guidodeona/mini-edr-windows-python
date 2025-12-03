@@ -17,5 +17,11 @@
   },
   "system_scanner": {
     "enabled": true
-  }
+  },
+  "registry_scanner": {
+    "enabled": true,
+    "suspicious_keywords": ["cmd.exe", "powershell.exe", "wscript.exe", "temp", "appdata", "unknown"]
+  },
+  "canary_path": "C:/Users/Public/passwords.txt",
+  "monitor_interval": 10
 }

@@ -30,3 +30,23 @@ def crear_informe(alertas_detectadas, alertas_criticas):
     
     print(f"\n📄 Informe generado: {nombre_archivo}\n")
     return nombre_archivo
+
+def crear_informe_json(alertas_detectadas, alertas_criticas):
+    if not os.path.exists(LOG_DIR):
+        os.makedirs(LOG_DIR)
+    
+    timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
+    nombre_archivo = f"{LOG_DIR}/informe_{timestamp}.json"
+    
+    data = {
+        "timestamp": str(datetime.datetime.now()),
+        "alertas_leves": alertas_detectadas,
+        "alertas_criticas": alertas_criticas
+    }
+    
+    import json
+    with open(nombre_archivo, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=4, ensure_ascii=False)
+        
+    print(f"\n📄 Informe JSON generado: {nombre_archivo}\n")
+    return nombre_archivo

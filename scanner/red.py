@@ -23,5 +23,5 @@ def scan_network(config, collect_alerts=False):
             s.close()
         except:
             continue
-    time.sleep(config["network_scanner"]["interval"])
+    # time.sleep(config["network_scanner"]["interval"]) <-- Eliminado
     return {"leves": leves, "criticas": criticas}

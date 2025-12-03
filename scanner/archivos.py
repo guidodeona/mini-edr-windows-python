@@ -23,5 +23,5 @@ def scan_files(config, collect_alerts=False):
                         print_alert(f"[ALERTA] {msg}", "danger")
                         if collect_alerts:
                             criticas.append(msg)
-    time.sleep(config["file_scanner"]["interval"])
+    # time.sleep(config["file_scanner"]["interval"]) <-- Eliminado
     return {"leves": leves, "criticas": criticas}

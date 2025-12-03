@@ -1,0 +1,39 @@
+========== INFORME DE SEGURIDAD ==========
+Fecha y hora: 2025-12-03 19:20:19.754472
+
+---- RIESGOS DETECTADOS / COSAS A VIGILAR ----
+- Proceso ejecutado desde ruta sospechosa: c:\users\memotito\appdata\local\programs\antigravity\antigravity.exe
+- Proceso ejecutado desde ruta sospechosa: c:\users\memotito\appdata\local\discord\app-1.0.9216\discord.exe
+- Proceso ejecutado desde ruta sospechosa: c:\users\memotito\appdata\local\discord\app-1.0.9216\discord.exe
+- Proceso ejecutado desde ruta sospechosa: c:\users\memotito\appdata\local\programs\antigravity\antigravity.exe
+- Proceso ejecutado desde ruta sospechosa: c:\users\memotito\appdata\local\programs\antigravity\antigravity.exe
+- Proceso ejecutado desde ruta sospechosa: c:\users\memotito\appdata\local\programs\python\python312\python.exe
+- Proceso ejecutado desde ruta sospechosa: c:\users\memotito\appdata\local\discord\app-1.0.9216\discord.exe
+- Proceso ejecutado desde ruta sospechosa: c:\users\memotito\appdata\local\programs\antigravity\antigravity.exe
+- Proceso ejecutado desde ruta sospechosa: c:\users\memotito\appdata\local\programs\antigravity\antigravity.exe
+- Proceso ejecutado desde ruta sospechosa: c:\users\memotito\appdata\local\programs\antigravity\antigravity.exe
+- Proceso ejecutado desde ruta sospechosa: c:\users\memotito\appdata\local\discord\app-1.0.9216\discord.exe
+- Proceso ejecutado desde ruta sospechosa: c:\users\memotito\appdata\local\programs\python\python312\python.exe
+- Proceso ejecutado desde ruta sospechosa: c:\users\memotito\appdata\local\programs\antigravity\antigravity.exe
+- Proceso ejecutado desde ruta sospechosa: c:\users\memotito\appdata\local\programs\antigravity\antigravity.exe
+- Proceso ejecutado desde ruta sospechosa: c:\users\memotito\appdata\local\discord\app-1.0.9216\discord.exe
+- Proceso ejecutado desde ruta sospechosa: c:\users\memotito\appdata\local\programs\antigravity\antigravity.exe
+- Proceso ejecutado desde ruta sospechosa: c:\users\memotito\appdata\local\discord\app-1.0.9216\discord.exe
+- Proceso ejecutado desde ruta sospechosa: c:\users\memotito\appdata\local\programs\python\python312\python.exe
+- Proceso ejecutado desde ruta sospechosa: c:\users\memotito\appdata\local\programs\antigravity\antigravity.exe
+- Proceso ejecutado desde ruta sospechosa: c:\users\memotito\appdata\local\programs\antigravity\antigravity.exe
+- Proceso ejecutado desde ruta sospechosa: c:\users\memotito\appdata\local\programs\antigravity\antigravity.exe
+- Proceso ejecutado desde ruta sospechosa: c:\users\memotito\appdata\local\programs\antigravity\antigravity.exe
+- Proceso ejecutado desde ruta sospechosa: c:\users\memotito\appdata\local\programs\antigravity\resources\app\extensions\antigravity\bin\language_server_windows_x64.exe
+- Puerto abierto detectado: 3389
+- Firewall desactivado en uno o más perfiles
+
+---- PROBLEMAS CRÍTICOS / POSIBLES INFECCIONES ----
+- Proceso sospechoso: cmd.exe (PID 8004)
+- Proceso sospechoso: powershell.exe (PID 11948)
+- Proceso sospechoso: powershell.exe (PID 14932)
+- Proceso sospechoso: cmd.exe (PID 24612)
+- Proceso sospechoso: powershell.exe (PID 25132)
+- Persistencia sospechosa detectada: [Discord] -> "C:\Users\Memotito\AppData\Local\Discord\Update.exe" --processStart Discord.exe
+- Persistencia sospechosa detectada: [electron.app.Wispr Flow] -> C:\Users\Memotito\AppData\Local\WisprFlow\Wispr Flow.exe
+- Persistencia sospechosa detectada: [com.squirrel.WisprFlow.WisprFlow] -> C:\Users\Memotito\AppData\Local\WisprFlow\Wispr Flow.exe

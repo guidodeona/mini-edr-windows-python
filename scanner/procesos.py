@@ -36,5 +36,5 @@ def scan_processes(config, collect_alerts=False):
 
         except (psutil.NoSuchProcess, psutil.AccessDenied):
             continue
-    time.sleep(config["process_scanner"]["interval"])
+    # time.sleep(config["process_scanner"]["interval"])  <-- Eliminado para no bloquear el monitor
     return {"leves": leves, "criticas": criticas}
