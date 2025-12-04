@@ -1,18 +1,29 @@
 {
   "process_scanner": {
     "enabled": true,
-    "suspicious_names": ["powershell.exe","cmd.exe","wscript.exe","mshta.exe"],
+    "suspicious_names": [
+      "powershell.exe",
+      "cmd.exe",
+      "wscript.exe",
+      "mshta.exe"
+    ],
     "interval": 5
   },
   "file_scanner": {
     "enabled": true,
-    "watch_paths": ["C:/Users/Public","C:/Users/TU_USUARIO/AppData/Local/Temp","C:/Users/TU_USUARIO/Desktop"],
-    "dangerous_extensions": [".exe",".dll",".bat",".cmd",".ps1"],
-    "interval": 5
+    "watch_paths": [
+      "C:/Users/Public",
+      "C:/Users/Memotito/Desktop/EDR_TEST"
+    ],
+    "dangerous_extensions": [".exe", ".dll", ".bat", ".cmd", ".ps1"],
+    "interval": 5,
+    "quarantine_folder": "quarantine",
+    "auto_quarantine": true,
+    "yara_rules_path": "rules/malware.yar"
   },
   "network_scanner": {
     "enabled": true,
-    "watch_ports": [4444,1337,5555,3389,5985],
+    "watch_ports": [4444, 1337, 5555, 3389, 5985],
     "interval": 10
   },
   "system_scanner": {
@@ -20,7 +31,14 @@
   },
   "registry_scanner": {
     "enabled": true,
-    "suspicious_keywords": ["cmd.exe", "powershell.exe", "wscript.exe", "temp", "appdata", "unknown"]
+    "suspicious_keywords": [
+      "cmd.exe",
+      "powershell.exe",
+      "wscript.exe",
+      "temp",
+      "appdata",
+      "unknown"
+    ]
   },
   "canary_path": "C:/Users/Public/passwords.txt",
   "monitor_interval": 10

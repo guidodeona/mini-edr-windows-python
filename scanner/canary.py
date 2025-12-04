@@ -18,6 +18,8 @@ def scan_canary(config, collect_alerts=False):
     
     canary_path = config.get("canary_path", "C:\\Users\\Public\\passwords.txt")
     
+    print_alert("🔍 Verificando integridad del Honeyfile...", "info")
+    
     # Ensure canary exists
     setup_canary(canary_path)
 
@@ -30,6 +32,8 @@ def scan_canary(config, collect_alerts=False):
             print_alert(f"[ALERTA CRÍTICA] {msg}", "danger")
             if collect_alerts:
                 criticas.append(msg)
+        else:
+            print_alert("✔ Honeyfile seguro (sin modificaciones).", "success")
                 
     except Exception as e:
         msg = f"No se pudo leer el honeyfile: {e}"

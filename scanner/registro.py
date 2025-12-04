@@ -39,4 +39,7 @@ def scan_registry(config, collect_alerts=False):
             # Key might not exist or permission denied
             continue
 
+    if not leves and not criticas:
+        print_alert("✔ Registro limpio. No se detectó persistencia sospechosa.", "success")
+
     return {"leves": leves, "criticas": criticas}

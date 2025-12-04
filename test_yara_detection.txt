@@ -1,0 +1,7 @@
+Este es un archivo de prueba para el sistema YARA.
+
+Contiene strings que serán detectados por las reglas:
+- mimikatz
+- gentilkiwi
+
+Esto simula malware para testing.
