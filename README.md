@@ -261,8 +261,6 @@ Esta herramienta es para **fines educativos y de investigación**. Úsala bajo t
 
 <div align="center">
 
-**Hecho con ❤️ por el equipo NEXO**
-
 [Reportar Bug](https://github.com/tu-usuario/mini-edr/issues) · [Solicitar Feature](https://github.com/tu-usuario/mini-edr/issues)
 
 </div>
