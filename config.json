@@ -7,19 +7,21 @@
       "wscript.exe",
       "mshta.exe"
     ],
-    "interval": 5
+    "interval": 5,
+    "auto_kill": false,
+    "kill_on_high_cpu": false,
+    "cpu_threshold": 80
   },
   "file_scanner": {
     "enabled": true,
-    "watch_paths": [
-      "C:/Users/Public",
-      "C:/Users/Memotito/Desktop/EDR_TEST"
-    ],
+    "watch_paths": ["C:/Users/Public", "C:/Users/Memotito/Desktop/EDR_TEST"],
     "dangerous_extensions": [".exe", ".dll", ".bat", ".cmd", ".ps1"],
     "interval": 5,
     "quarantine_folder": "quarantine",
     "auto_quarantine": true,
-    "yara_rules_path": "rules/malware.yar"
+    "yara_rules_path": "rules/malware.yar",
+    "use_virustotal": false,
+    "vt_auto_check": false
   },
   "network_scanner": {
     "enabled": true,
@@ -39,6 +41,25 @@
       "appdata",
       "unknown"
     ]
+  },
+  "notifications": {
+    "enabled": false,
+    "discord_webhook": "",
+    "slack_webhook": "",
+    "notify_on_critical": true,
+    "notify_on_malware": true,
+    "notify_on_canary": true
+  },
+  "web_dashboard": {
+    "enabled": false,
+    "host": "0.0.0.0",
+    "port": 5000,
+    "auto_start": false
+  },
+  "database": {
+    "enabled": true,
+    "path": "logs/events.db",
+    "log_all_events": true
   },
   "canary_path": "C:/Users/Public/passwords.txt",
   "monitor_interval": 10

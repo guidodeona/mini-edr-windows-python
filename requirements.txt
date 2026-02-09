@@ -2,3 +2,7 @@ psutil
 rich
 watchdog
 yara-python
+requests
+flask
+flask-cors
+python-dotenv
